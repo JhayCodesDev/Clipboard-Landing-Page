@@ -1,0 +1,380 @@
+html {
+  font-size: 62.5%;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    font-size: 1.8rem;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1,h2{
+    font-weight: 400;
+}
+
+p{
+    color: hsl(210, 10%, 33%);
+}
+
+header{
+    text-align: center;
+    background-image: url(../images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6.25em 0 0 0;
+}
+
+header img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1.875em;
+}
+
+header h1{
+    font-family: sans-serif;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+header p{
+    font-family: sans-serif;
+    font-size: 1.35rem;
+    width: 83%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    margin-bottom: 1.2em;
+}
+
+header button{
+    margin: 0.625em;
+    width: 85%;
+    padding: 1em;
+    border-radius: 1.6em;
+    border: none;
+}
+
+header button:hover{
+    cursor: pointer;
+}
+
+header button:nth-of-type(1){
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    font-weight: bold;
+}
+
+header button:nth-of-type(2){
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    font-weight: bold;
+}
+
+.s-one{
+    margin-top: 6em;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.2em;
+}
+
+.s-two{
+    margin-bottom: 3em;
+}
+
+.s-two p{
+    font-family: sans-serif;
+    font-size: 1.35rem;
+    width: 83%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.s-three{
+    text-align: center;
+    padding: 1em;
+}
+
+.s-three img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.25em;
+}
+
+.s-four{
+    text-align: center;
+    margin-bottom: 10em;
+}
+
+.s-four p{
+    font-family: sans-serif;
+    font-size: 1.37rem;
+    width: 83%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    margin-bottom: 5em;
+}
+
+.s-five{
+    text-align: center;
+}
+
+.s-five p{
+    font-family: sans-serif;
+    font-size: 1.29rem;
+    width: 83%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    margin-bottom: 5em;
+}
+
+.s-five img{
+    width: 100%;
+    height: auto;
+}
+
+.s-six{
+    text-align: center;
+    margin-bottom: 7em;
+}
+
+.s-six p{
+    font-family: sans-serif;
+    font-size: 1.29rem;
+    width: 83%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    margin-bottom: 5em;
+}
+
+.s-seven{
+    text-align: center;
+}
+
+.s-seven img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5em;
+}
+
+.s-eight{
+    text-align: center;
+    margin-bottom: 9em;
+}
+
+.s-eight p{
+    font-family: sans-serif;
+    font-size: 1.35rem;
+    width: 83%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    margin-bottom: 3em;
+}
+
+.s-eight button{
+    margin: 0.625em;
+    width: 85%;
+    padding: 1em;
+    border-radius: 1.6em;
+    border: none;
+}
+
+.s-eight button:hover{
+    cursor: pointer;
+}
+
+.s-eight button:nth-of-type(1){
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    font-weight: bold;
+}
+
+.s-eight button:nth-of-type(2){
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: hsl(201, 11%, 66%);
+}
+
+footer img{
+    width: 5em;
+    margin-top: 2em;
+}
+
+footer ul li{
+    list-style-type: none;
+    line-height: 3em;
+    margin-inline-start: -2em;
+    font-size: 1.5rem;
+}
+
+footer ul li a{
+    text-decoration: none;
+    margin-inline-start: -2em;
+    color: hsl(210, 10%, 33%);
+}
+
+footer ul li a:hover{
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
+    font-weight: bold;
+}
+
+.footer-social{
+    font-size: 4rem;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+footer div i:hover{
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
+}
+
+.attribution { 
+    font-size: 1.1rem; 
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media screen and (min-width: 48em){
+    header{
+        background-image: url(../images/bg-header-desktop.png);
+        background-size: cover;
+        padding: 8em 0 0 0;
+    }
+
+    header h1{
+        font-size: 4.5rem;
+    }
+
+    header p{
+        font-size: 1.5rem;
+        width: 60%;
+    }
+
+    header button{
+        width: 13em;
+        margin: 1em;
+    }
+
+    .s-one{
+        font-size: 4.5rem;
+    }
+
+    .s-two p, .s-four p, .s-five p, .s-six p, .s-eight p{
+        font-size: 1.5rem;
+        width: 45%;
+    }
+
+    .flex-con{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .s-three img{
+        width: 100%;
+        margin-inline-start: -5em;
+    }
+
+    .s-four{
+        width: 50%;
+        padding: 2em;
+    }
+
+    .s-four h2{
+        font-size: 1.5rem;
+    }
+
+    .s-four h2, .s-four p{
+        text-align: start;
+        font-weight: 600;
+    }
+
+    .s-four p{
+        font-size: 1rem;
+        text-align: justify;
+        margin-inline-start: 0;
+        margin-bottom: 6em;
+        width: 22em;
+        line-height: 2em;
+    }
+
+    .s-five{
+        margin-top: -8em;
+        padding: 6.25em;
+    }
+
+    .s-seven img{
+        width: 10%;
+        height: auto;
+    }
+
+    .f-two{
+        display: flex;
+        justify-content: space-around;
+        margin-inline-start: -3em;
+    }
+
+    .s-seven{
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+    }
+
+    .s-eight button{
+        width: 13em;
+        margin: 1em;
+    }
+
+
+    .footer-container {
+        margin: 0 auto;
+        padding: 0 2em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-logo img {
+       width: 4em;
+       margin-top: -2em;
+       /* margin-inline-start: 4em; */
+    }
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 6.35em;
+        text-align: center;
+    }
+
+    .footer-links li:nth-child(4){
+        margin-top: -6em;
+        margin-inline-start: 0.5em;
+    }
+
+     .footer-links li:nth-child(5){
+        margin-top: -6em;
+        margin-inline-start: -4em;
+    }
+
+    .footer-social {
+        display: flex;
+        gap: 1em;
+    }
+
+}
