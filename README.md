@@ -50,7 +50,7 @@ Identified the main sections: header, content sections (s-one to s-eight), brand
 
 Setting Up the Project
 
-Created a clean HTML structure using semantic elements: <header>, <main>, <section>, and <footer>.
+Created a clean HTML structure using semantic elements: header, main, section, and footer.
 
 Linked Google Fonts (Bai Jamjuree) for modern typography.
 
@@ -82,7 +82,7 @@ Placed illustrative images for content sections and devices.
 
 Added brand logos in .s-seven section for credibility.
 
-Used <img> inside <i> wrappers for smaller icons where necessary.
+Used img inside i wrappers for smaller icons where necessary.
 
 Responsive Adjustments
 
