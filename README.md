@@ -15,11 +15,11 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 ## Overview
 
 This is my solution to the Clipboard Landing Page challenge on Frontend Mentor
-. The project is a fully responsive landing page featuring a clear hierarchy of content sections, including headers, feature descriptions, app download prompts, brand logos, and a footer.
+. The project is a fully responsive landing page featuring a clear hierarchy of content sections, including headers, feature descriptions, , brand logos, and a footer.
 
 The main goals of this project were to:
 
-Practice structuring a webpage using semantic HTML elements like <header>, <main>, <section>, and <footer>.
+Practice structuring a webpage using semantic HTML elements like header, main, section, and footer.
 
 Implement responsive layouts using Flexbox for both simple and multi-column sections.
 
